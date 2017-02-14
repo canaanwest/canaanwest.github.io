@@ -1,2 +1,2 @@
 # canaanwest.github.io
-my github website, redone
+my github website, try and try again!
