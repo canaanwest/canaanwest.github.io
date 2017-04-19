@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/notes/notes.js"></script>
+    <title>A Well of HTML</title>
+    
+    
+    <style type="text/css">
+
+     
+    </style>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <!-- ALL YOUR MARKUP GOES BELOW HERE -->
+         <h1><center>A Well Of HTML</center></h1>
+        <div id="div1-headers-links-pics">
+            <h2><small>I hear you'd like me to make</small><br>some headers</h2>
+                <p>This is my first paragraph. It's nothing fancy, as you can see, but oh look!</p>
+                    <h3>A Link!</h3>
+                        <a href="https://fr.wikipedia.org/wiki/Ada_Lovelace">Here's a link to my favorite wiki article</a>
+                            <h4>A Photo!</h4>
+                                 <img src = "img/black-currant.jpg">
+                                <p>
+                                I'd like to discuss this photograph with you. See, I chose this picture without knowing what it looked like, but I had to use it, even though
+                                it doesn't have much to do with my article. I just chose it because I had to demonstrate my ability to name a relative file path. You're welcome.
+                                </p>
+                                <br>
+                                <br>
+        </div>
+
+        <h2><center>Shrinking Headers!</center></h2>
+        <div id="div3-shrinkingheaders">
+                                <h5>Or Perhaps We'll Keep Shrinking Headers Together</h5>
+                                    <h6>Shrinking Headers</h6>
+                                        <h6><small>H6 is as small as it goes, but not if you use "small" </small></small></h6>
+        
+        </div>
+        
+        <h3><center>Here's a List of Lists</center></h3>
+        <div id="div4-list-of-list">
+        <p>There are two kinds of lists. They are:</p>
+        <ul>
+            <li>Unordered Lists</li>
+                <ul>
+                    <li>Have Bullet Points</li>
+                    <li>Or Not, if you style them out</li>
+                    <li>Can be used inside of other lists</li>
+                </ul>
+            <li>Ordered Lists</li>
+                <ol>
+                    <li>Have some kind of numbering system</li>
+                    <li>Seem to assign importance</li>
+                    <li>Can also be used inside of other lists</li>                
+                </ol>
+        </ul>
+        <br>
+        <br>
+        </div>
+        <h4 class="flexbox"><center>Allow Me to Demonstrate Flex Layout!</center></h4>
+        <div class="flex-box">
+        <div id="div2-poem">
+            <p><br></p>
+            <h2>And Who Even Knows</h2><br><br>
+                <p>
+                <strong>And Who Even Knows</strong><br>
+                What's next.<br>
+                Perhaps <em>A Well of HTML</em> will give me water.<br>
+                Perhaps it will sprout <strike>fourth</strike> forth <br>
+                Life<br>
+                A wealth of knowledge.<br>
+                </p>
+        </div>
+        
+        
+    <p><br><br><br></p>
+
+    <br>
+    <div id="div6-table">
+        <p><br><br><br><br></p>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2"><center><em>Lit-er-a-ture</em></center></th>
+        </tr>    
+    </thead>
+    <thead>
+        <tr>
+            <th><center>Title</center></th>
+            <th><center>Type</center></th>
+        </tr>    
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="2">Tell me your favorite kind in the form!</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td><center>"And Who Even Knows"</center></td>
+            <td><center>Poetry</center></td>
+        </tr>
+        <tr>
+            <td><center>"A Well of HTML"</center></td>
+            <td><center>prose/webpage</center></td>
+        </tr>
+    </tbody>
+</table>
+    </div>
+    <p><br><br></p>
+    <div id="div5-form">
+            <form class="example-form">
+    <div><text><center><h4>Favorite Type of Literature</h4></center></text></div>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+    </div>
+    <div>
+        <label for="msg">Tell Me!</label>
+        <textarea id="msg"></textarea>
+    </div>
+
+    <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+</form>
+    </div>
+    </div>
+
+<h4><center>This is an Example with a Grid</center></h4>
+<div class="example-grid">
+  <div class="row">
+      <div class="col-md-2"><img src="img/cherries.jpg" class="row-img"></img>
+      </div>
+      <div class="col-md-10">Cherries, cherries, better than berries.</div>
+  </div>
+  <div class="row">
+      <div class="col-md-2"><img src="img/black-currant.jpg" class="row-img"></img>
+      </div>
+      <div class="col-md-10">Black Currents lack currency.</div>
+  </div>
+  <div class="row">
+      <div class="col-md-2"><img src="img/apple-in-grass.jpg" class="row-img"></img>
+      </div>
+      <div class="col-md-10">Apples, Apples everywhere. Eat an apple; even share.</div>
+  </div>
+</div>
+    
+    
+    
+        <!-- ALL YOUR MARKUP GOES ABOVE HERE -->
+    
+    <script>
+        $(function () {
+            window.opspark.notes.show();
+        });
+    </script>
+</body>
+
+</html>

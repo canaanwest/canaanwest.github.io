@@ -1,0 +1,136 @@
+   .example-form {
+    /* Just to center the form on the page, use: margin: 0 auto;*/
+    margin: 20px;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.example-form div + div {
+    margin-top: 1em;
+}
+
+.example-form label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+}
+
+.example-form input,
+.example-form textarea {
+    /* To make sure that all text fields have the same font settings
+    By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    /* To give the same size to all text field */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
+.example-form input:focus,
+.example-form textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+}
+
+.example-form textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+    /* To give enough room to type some text */
+    height: 5em;
+    /* To allow users to resize any textarea vertically
+    It does not work on every browsers */
+    resize: vertical;
+}
+
+table {
+    margin: 0px auto;
+}
+
+table,
+th,
+td {
+    padding: 4px;
+    border: 1px solid black;
+}
+
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 4px;
+    background-color: #a4c697;
+    color: black;
+    border: dotted;
+    border-radius: 8px;
+    
+}
+
+
+.example-grid {
+    margin: 20px;
+    background-color: #a4c697;
+    border: solid;
+    color: black;
+}
+
+.row-img {
+    margin: 4px;
+}
+
+
+#div1-headers-links-pics{
+    background-color: #a4c697;
+    color: black;
+    border: solid;
+    border-radius: 4px;
+    
+}
+
+#div3-shrinkingheaders{
+    background-color: #a4c697;
+    color: black;
+    border: dotted;
+    border-radius: 8px;
+}
+
+#div4-list-of-list{
+    background-color: #a4c697;
+    color: black;
+    border: solid;
+    border-radius: 4px;
+}
+
+h1{
+    color: #123151;
+
+}
+
+h2{
+    color: #123151;
+    
+}
+
+h3{
+    color: #123151;
+}
+
+h4{
+    color: #123151;
+}
+
+h5{
+    color: #123151;
+    
+}
+
+h6{
+    color: #123151;
+  
+}
