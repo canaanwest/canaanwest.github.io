@@ -1,16 +1,28 @@
-.li-products {
-    list-style: none
+body{
+    background-color: #3A5882;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: "Courier New", serif;
     
 }
 
+
    .example-form {
     /* Just to center the form on the page, use: margin: 0 auto;*/
-    margin: 20px;
+    margin: 0 auto;
     width: 400px;
     /* To see the outline of the form */
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+
+}
+.search-bar{
+    padding: 20px;
 }
 
 .example-form div + div {
@@ -21,6 +33,7 @@
     /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
     width: 90px;
+    
 }
 
 .example-form input,
@@ -34,12 +47,14 @@
     box-sizing: border-box;
     /* To harmonize the look & feel of text field border */
     border: 1px solid #999;
+    
 }
 
 .example-form input:focus,
 .example-form textarea:focus {
     /* To give a little highlight on active elements */
     border-color: #000;
+    
 }
 
 .example-form textarea {
@@ -50,6 +65,7 @@
     /* To allow users to resize any textarea vertically
     It does not work on every browsers */
     resize: vertical;
+   
 }
 
 table {
@@ -61,4 +77,130 @@ th,
 td {
     padding: 4px;
     border: 1px solid black;
+}
+
+/* light box */
+#light-box {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   top: 10px;
+   left: 10px;
+   right: 10px;
+   bottom:10px;
+   color: #fff;
+ }
+ 
+ #light-box img {
+   max-width: 100%;
+   max-height: 100%;
+   position: relative;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+ }
+ 
+ .product-detail-text{
+     background-color: white; 
+     border-radius: 4px; 
+     position: absolute; 
+     margin-left: 15%;
+     margin-top: 5%;
+     width: 70%;
+     height: 70%;
+     float: left;
+     color: black;
+     border: groove;
+     border-color: grey;
+ }
+
+ #product-detail-text{
+     text-align: center;
+     padding-top: 80px;
+     padding-right: 20px;
+     padding-left: 20px;
+ }
+ 
+ #detail-text{
+     color: black;
+     padding-left: 20px;
+     padding-top: 10px;
+     text-align: left;
+     list-style: circle;
+     font-weight: bold;
+     font-family: "Courier New";
+     font-size: 16px;
+ }
+ 
+ #light-box-image{
+     position: relative;
+     float: left;
+     height: 500px;
+     padding: 35px;
+ }
+ 
+ .img {
+   max-width: 100px;
+   max-height: 100px;
+   border: 1px solid #ccc;
+   padding: 10px;
+   margin: 5px;
+   box-shadow: 0px 2px 3px #000;
+ }
+ 
+ .li-product{
+     display: flex;
+     background-color: #EB6A3D;
+     border: solid;
+     border-color: brown;
+     border-radius: 10px;
+     width:100%;
+ }
+ 
+ 
+ #products{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;  
+    list-style: none;
+    padding: 10px;
+ }
+
+.product-details{
+    font-weight: bolder;
+    color: black;
+    width: 100%;
+    padding-top: 50px;
+    padding: 30px;
+
+}
+.product-description{
+    font-weight: bolder;
+}
+
+
+
+.product-thumb{
+    position: relative;
+    float: left;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: groove;
+}
+
+.dropdown-menu{
+    border: solid;
+    text-align: center;
+    border-radius: 8px;
+    border: black;
+    background-color: #EBA894;
+}
+
+.form-control{
+    background-color: white;
+    color: black;
 }
