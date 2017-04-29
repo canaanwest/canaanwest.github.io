@@ -35,6 +35,7 @@ $(document).ready(function() {
             .attr("art", item.art)})
          
          $(".art").hide();
+         $(".title").css("font-weight", "bold");
         
 //TO DO 6: Create Images for Recording List
     $("#recordings-header").append($("<div>").addClass("image-container").attr("id", "image-general-recordings"))
