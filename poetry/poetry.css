@@ -1,0 +1,67 @@
+body {
+    background: rgb(125, 198, 205);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: arial;
+    border-radius: 10px;
+}
+
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+[all-contents] {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* Main navigation menu */
+
+nav {
+    background: rgb(239, 80, 41);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav header {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    flex: 1;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-image: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.poetry {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    font-family: "Times", serif;
+    border: thin; 
+    display: flex;
+}
+
+.poems{
+    border: groove;
+    margin: 20px;
+    padding: 20px;
+}
