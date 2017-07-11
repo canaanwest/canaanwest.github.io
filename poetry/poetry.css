@@ -4,6 +4,7 @@ body {
     padding: 10px;
     font-family: arial;
     border-radius: 10px;
+    z-index: 1000;
 }
 
 header {
@@ -22,14 +23,18 @@ header {
 
 nav {
     background: rgb(239, 80, 41);
+    position: fixed;
     margin: 0 auto;
-    display: flex;
     padding: 10px;
     border-radius: 10px;
+    z-index: 1000;
+    width: 94%;
+    display: flex;
+     
+    
 }
 
 nav header {
-    display: flex;
     align-items: center;
     color: rgb(255, 255, 255);
     flex: 1;
@@ -50,18 +55,38 @@ nav a {
     color: #fff;
 }
 
+
 .poetry {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
+    padding: 50px;
+    margin-left: 30%;
+    margin-top: 120px;
     border-radius: 8px;
     font-family: "Times", serif;
     border: thin; 
     display: flex;
+    flex: 1;
+    width: 60%;
+    z-index: 1001;
 }
 
 .poems{
+    background-color: white;
     border: groove;
-    margin: 20px;
+    border-radius: 8px;
     padding: 20px;
+    margin: 20px;
+    display: inline;
+    flex: auto;
+    overflow: auto;
+    z-index: 2;
+}
+
+#background-image{
+    width: 95%;
+    text-align: center; 
+    position: fixed;
+    top: 90 px;
+    z-index: 1;
+    border-radius: 8px;
+    display: flex;
 }
